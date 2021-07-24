@@ -1,0 +1,43 @@
+>mkdir LetsLearnGit
+>cd LetsLearnGit/
+
+
+>git init
+>vi File1_Dev
+>vi File2_Test
+>vi File3_Test
+>vi .gitignore
+>git add .gitignore
+>git commit -m "Initial commit"
+
+>git branch Dev
+>git Branch Test
+
+>git checkout Dev
+>git add File1_Dev
+>git commit -m "added File1_dev"
+>git checkout Test
+>git add File2_Test
+>git commit -m "Added File2_Test"
+>git add File3_Test
+>git commit -m "File1 and File2 added"
+
+>git checkout Dev
+>vi File1_Dev
+>git diff
+>git status
+>git add File1_Dev
+>git commit -m " modifief File1_Dev"
+>git status
+>git diff --cached
+
+>git checkout master
+>git merge Dev
+>git merge Test
+
+>git remote add origin https://github.com/dikshita1011/LetsLearnGit.git
+>git push -u origin master
+>git clone https://github.com/dikshita1011/LetsLearnGit.git
+>vi Solution.txt
+
+
